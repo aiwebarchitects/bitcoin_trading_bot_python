@@ -31,14 +31,13 @@ The bot features a clean, four-tab interface for monitoring, controlling, and ba
 ![Backtest](screenshots/Backtest.png)
 *Test your strategy with historical data and view comprehensive performance metrics*
 
-## Version 0.2 - Backtest Integration Release
+## Version 1.0 - Initial Release
 
-**What's New in v0.2:**
+**Key Features:**
 - ✨ **Integrated Backtesting**: Test your strategy directly from the panel
 - 🤖 **Self-Optimizing System**: Automatically runs backtests every 24 hours to find best parameters
-- 📊 **4-Tab Interface**: Added dedicated BACKTEST tab
-- 🧹 **Cleaner Codebase**: Removed unused algorithms (MACD, SMA, Support Volume, Vol24)
-- 📁 **Better Organization**: Backtesting files moved to `helpers/` folder
+- 📊 **4-Tab Interface**: Main dashboard, bot control, trade history, and backtesting
+- 📁 **Organized Structure**: Clean codebase with modular design
 - 🎯 **Focused Strategy**: Optimized for RSI 1MIN Double Confirm only
 - 🔄 **Dynamic Parameters**: Bot automatically uses best-performing parameters from backtest results
 
