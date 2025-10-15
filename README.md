@@ -2,7 +2,7 @@
 
 A real-time monitoring and trading panel for Bitcoin (BTC) using the RSI 1MIN Double Confirm strategy on Hyperliquid, now with integrated backtesting!
 
-![Free Hyperliquid Trading Bot](free_hyperliquid_trading_bot.png)
+![Free Bitcoin Trading Bot](bitcoin_trading_bot_python.png)
 
 ## 🎁 Get Started with Bonus
 
