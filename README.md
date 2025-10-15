@@ -1,6 +1,16 @@
-# Free Bitcoin Trading Bot python for Hyperliquid API
+# Free Bitcoin Trading Bot in Python for Hyperliquid - Open Source & Easy Setup
 
-A real-time monitoring and trading panel for Bitcoin (BTC) using the RSI 1MIN Double Confirm strategy on Hyperliquid, now with integrated backtesting!
+**Looking for a Free Bitcoin Trading Bot in Python that's easy to setup?** Want your bot to run 24/7 and automatically trade Bitcoin on Hyperliquid? You're in the right place!
+
+This is a **completely free, open-source Bitcoin Trading Bot** built in Python. It features:
+- ✅ **Automated 24/7 Bitcoin Trading** on Hyperliquid
+- ✅ **Easy Setup** - Get started in minutes
+- ✅ **Self-Optimizing** - Automatically finds the best trading parameters
+- ✅ **Real-Time Monitoring** - Track your trades and profits live
+- ✅ **Built-in Backtesting** - Test strategies before going live
+- ✅ **Risk Management** - Automatic stop-loss and take-profit protection
+
+The bot uses the proven **RSI 1MIN Double Confirm strategy** with integrated backtesting to maximize your trading performance.
 
 ![Free Bitcoin Trading Bot](bitcoin_trading_bot_python.png)
 
