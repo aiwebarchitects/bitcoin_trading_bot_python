@@ -2,7 +2,7 @@
 
 A real-time monitoring and trading panel for Bitcoin (BTC) using the RSI 1MIN Double Confirm strategy on Hyperliquid, now with integrated backtesting!
 
-![Free Bitcoin Trading Bot](bitcoin_trading_bot_python.png)
+![Free Hyperliquid Trading Bot](free_hyperliquid_trading_bot.png)
 
 ## 🎁 Get Started with Bonus
 
@@ -72,8 +72,8 @@ This bot implements a SHORT-based trading strategy using RSI (Relative Strength 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/aiwebarchitects/hyperliquid_free_trading_bot.git
-cd hyperliquid_free_trading_bot
+git clone https://github.com/aiwebarchitects/bitcoin_trading_bot_python.git
+cd bitcoin_trading_bot_python
 ```
 
 2. Install dependencies:
@@ -280,14 +280,13 @@ BOT_RSI_PERIOD = 14  # Use 14 instead of auto-optimized value
 ## File Structure
 
 ```
-hyperliquid_free_trading_bot_0.2/
+bitcoin_trading_bot_python/
 ├── bitcoin_panel.py                 # Main application
 ├── settings.py                      # Bot configuration
 ├── README.md                        # This file
 ├── requirements.txt                 # Python dependencies
 ├── system_files.txt                 # System documentation
-├── changelog_v_0.2.md              # Version changelog
-├── free_hyperliquid_trading_bot.png # Bot screenshot
+├── bitcoin_trading_bot_python.png # Bot screenshot
 ├── algos/                           # Trading algorithms
 │   ├── __init__.py
 │   ├── base_algorithm.py
@@ -327,27 +326,6 @@ If you see "Terminal too small!", resize your terminal to at least 60x20 charact
 - Ensure you have internet connectivity (fetches data from Binance)
 - Check that pandas and requests are properly installed
 - Try running backtest again if it times out
-
-## Changelog
-
-### Version 0.2 (Current)
-- Added integrated backtesting system with auto-optimization
-- Self-optimizing: Automatically runs backtests every 24 hours
-- Bot uses best-performing parameters from backtest results
-- New BACKTEST tab in panel interface
-- Parameter optimization tests 1000+ combinations
-- Results cached for 24 hours to improve performance
-- Moved backtesting files to `helpers/` folder
-- Removed unused algorithms (MACD, SMA, Support Volume, Vol24)
-- Cleaner, more focused codebase
-- Updated documentation with optimization details
-
-### Version 0.1
-- Initial release
-- 3-tab interface (Main, Bot, History)
-- RSI 1MIN Double Confirm strategy
-- Manual bot start/stop
-- Basic monitoring features
 
 ## Disclaimer
 
